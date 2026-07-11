@@ -1,0 +1,23 @@
+# Menjalankan skrip ETL pipeline
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+python -m pytest --cov=utils tests
+
+# Repository data
+Data disimpan ke:
+1. CSV: products.csv
+2. Google Sheets
+3. PostgreSQL 
+
+# URL Google Sheets
+https://docs.google.com/spreadsheets/d/1-s7iDI6ZJVtett0GHDGSCUC-tKS9ZNd1AZ2XpXha04A/edit?usp=sharing 
+
+# PostgreSQL
+Database: fashion_db
+Table: products
+Host: localhost
+Port: 5432
